@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EAB814153855A3C8050AF7A /* Pods_IOChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948B8087E4105BE585FA66BA /* Pods_IOChat.framework */; };
 		216230DD208B7C3100DEC4C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216230DC208B7C3100DEC4C0 /* AppDelegate.swift */; };
 		216230DF208B7C3100DEC4C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216230DE208B7C3100DEC4C0 /* ViewController.swift */; };
 		216230E2208B7C3100DEC4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216230E0208B7C3100DEC4C0 /* Main.storyboard */; };
 		216230E4208B7C3100DEC4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216230E3208B7C3100DEC4C0 /* Assets.xcassets */; };
 		216230E7208B7C3100DEC4C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216230E5208B7C3100DEC4C0 /* LaunchScreen.storyboard */; };
+		216230F2208B864B00DEC4C0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216230F1208B864A00DEC4C0 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C30C30DC26A946170A2B778 /* Pods-IOChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOChat/Pods-IOChat.debug.xcconfig"; sourceTree = "<group>"; };
 		216230D9208B7C3100DEC4C0 /* IOChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216230DC208B7C3100DEC4C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		216230DE208B7C3100DEC4C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,11 @@
 		216230E3208B7C3100DEC4C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		216230E6208B7C3100DEC4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		216230E8208B7C3100DEC4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216230EF208B864900DEC4C0 /* IOChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		216230F0208B864A00DEC4C0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		216230F1208B864A00DEC4C0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		6E79ACA5EC38BD9E5B77BEC1 /* Pods-IOChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOChat/Pods-IOChat.release.xcconfig"; sourceTree = "<group>"; };
+		948B8087E4105BE585FA66BA /* Pods_IOChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EAB814153855A3C8050AF7A /* Pods_IOChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +47,11 @@
 		216230D0208B7C3100DEC4C0 = {
 			isa = PBXGroup;
 			children = (
+				216230EE208B862F00DEC4C0 /* Supporting Files */,
 				216230DB208B7C3100DEC4C0 /* IOChat */,
 				216230DA208B7C3100DEC4C0 /* Products */,
+				CEFCAE0701504441A87E1C3F /* Pods */,
+				27348E9755309EDA60BA4571 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +76,33 @@
 			path = IOChat;
 			sourceTree = "<group>";
 		};
+		216230EE208B862F00DEC4C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				216230F0208B864A00DEC4C0 /* SWRevealViewController.h */,
+				216230F1208B864A00DEC4C0 /* SWRevealViewController.m */,
+				216230EF208B864900DEC4C0 /* IOChat-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27348E9755309EDA60BA4571 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				948B8087E4105BE585FA66BA /* Pods_IOChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFCAE0701504441A87E1C3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C30C30DC26A946170A2B778 /* Pods-IOChat.debug.xcconfig */,
+				6E79ACA5EC38BD9E5B77BEC1 /* Pods-IOChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 216230EB208B7C3100DEC4C0 /* Build configuration list for PBXNativeTarget "IOChat" */;
 			buildPhases = (
+				F0CD0C828CBFA5EB48C9BE0E /* [CP] Check Pods Manifest.lock */,
 				216230D5208B7C3100DEC4C0 /* Sources */,
 				216230D6208B7C3100DEC4C0 /* Frameworks */,
 				216230D7208B7C3100DEC4C0 /* Resources */,
+				C7B93E61991AB31AE49C5AEA /* [CP] Embed Pods Frameworks */,
+				76FFC52ACF535A5D5A5532A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +138,7 @@
 				TargetAttributes = {
 					216230D8208B7C3100DEC4C0 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +174,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76FFC52ACF535A5D5A5532A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOChat/Pods-IOChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B93E61991AB31AE49C5AEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IOChat/Pods-IOChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOChat/Pods-IOChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0CD0C828CBFA5EB48C9BE0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		216230D5208B7C3100DEC4C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +241,7 @@
 			files = (
 				216230DF208B7C3100DEC4C0 /* ViewController.swift in Sources */,
 				216230DD208B7C3100DEC4C0 /* AppDelegate.swift in Sources */,
+				216230F2208B864B00DEC4C0 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +376,18 @@
 		};
 		216230EC208B7C3100DEC4C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C30C30DC26A946170A2B778 /* Pods-IOChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HVA24YKDTW;
 				INFOPLIST_FILE = IOChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ie.ucd.comp47390-41550.IOChat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/IOChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +395,17 @@
 		};
 		216230ED208B7C3100DEC4C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E79ACA5EC38BD9E5B77BEC1 /* Pods-IOChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HVA24YKDTW;
 				INFOPLIST_FILE = IOChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ie.ucd.comp47390-41550.IOChat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/IOChat-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
