@@ -282,6 +282,9 @@
                                 <state key="normal" title="CreateAccount">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="createAccountPressed:" destination="bL4-t9-hmG" eventType="touchUpInside" id="ykT-XP-k9D"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="OqM-KC-KSU">
                                 <rect key="frame" x="62" y="123" width="250" height="136"/>
@@ -351,6 +354,7 @@
                                 </state>
                                 <connections>
                                     <action selector="createAccountButtonPressed:" destination="60L-UK-kSa" eventType="touchUpInside" id="Le8-h1-a2B"/>
+                                    <action selector="pickAvatarPressed:" destination="bL4-t9-hmG" eventType="touchUpInside" id="8ZV-12-dlU"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="pTV-xf-k3B">
@@ -398,6 +402,10 @@
                         <viewLayoutGuide key="safeArea" id="U6e-AB-ZIT"/>
                     </view>
                     <connections>
+                        <outlet property="emailTxt" destination="5uB-OS-Bi7" id="pYG-I9-4dh"/>
+                        <outlet property="passTxt" destination="Fny-Ur-rys" id="bV4-Az-Lwf"/>
+                        <outlet property="userImg" destination="pTV-xf-k3B" id="EZj-8d-t5S"/>
+                        <outlet property="userNameTxt" destination="U0F-vY-1dz" id="1Ys-rB-RNY"/>
                         <segue destination="ewi-HJ-uMS" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="5Y7-nQ-KNF"/>
                     </connections>
                 </viewController>
