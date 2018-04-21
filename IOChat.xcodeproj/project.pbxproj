@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		0EAB814153855A3C8050AF7A /* Pods_IOChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948B8087E4105BE585FA66BA /* Pods_IOChat.framework */; };
 		216230DD208B7C3100DEC4C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216230DC208B7C3100DEC4C0 /* AppDelegate.swift */; };
-		216230DF208B7C3100DEC4C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216230DE208B7C3100DEC4C0 /* ViewController.swift */; };
 		216230E2208B7C3100DEC4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216230E0208B7C3100DEC4C0 /* Main.storyboard */; };
 		216230E4208B7C3100DEC4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216230E3208B7C3100DEC4C0 /* Assets.xcassets */; };
 		216230E7208B7C3100DEC4C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216230E5208B7C3100DEC4C0 /* LaunchScreen.storyboard */; };
-		216230F2208B864B00DEC4C0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216230F1208B864A00DEC4C0 /* SWRevealViewController.m */; };
+		216230F7208B894700DEC4C0 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216230F6208B894700DEC4C0 /* ChatVC.swift */; };
+		216230F9208B895800DEC4C0 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216230F8208B895800DEC4C0 /* ChannelVC.swift */; };
+		216230FC208B8E1600DEC4C0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216230FB208B8E1600DEC4C0 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C30C30DC26A946170A2B778 /* Pods-IOChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOChat/Pods-IOChat.debug.xcconfig"; sourceTree = "<group>"; };
 		216230D9208B7C3100DEC4C0 /* IOChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216230DC208B7C3100DEC4C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		216230DE208B7C3100DEC4C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		216230E1208B7C3100DEC4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		216230E3208B7C3100DEC4C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		216230E6208B7C3100DEC4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		216230E8208B7C3100DEC4C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		216230EF208B864900DEC4C0 /* IOChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOChat-Bridging-Header.h"; sourceTree = "<group>"; };
-		216230F0208B864A00DEC4C0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		216230F1208B864A00DEC4C0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		216230F6208B894700DEC4C0 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		216230F8208B895800DEC4C0 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		216230FA208B8E1600DEC4C0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		216230FB208B8E1600DEC4C0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		216230FD208B8F8400DEC4C0 /* IOChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOChat-Bridging-Header.h"; sourceTree = "<group>"; };
 		6E79ACA5EC38BD9E5B77BEC1 /* Pods-IOChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOChat/Pods-IOChat.release.xcconfig"; sourceTree = "<group>"; };
 		948B8087E4105BE585FA66BA /* Pods_IOChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -47,7 +49,6 @@
 		216230D0208B7C3100DEC4C0 = {
 			isa = PBXGroup;
 			children = (
-				216230EE208B862F00DEC4C0 /* Supporting Files */,
 				216230DB208B7C3100DEC4C0 /* IOChat */,
 				216230DA208B7C3100DEC4C0 /* Products */,
 				CEFCAE0701504441A87E1C3F /* Pods */,
@@ -66,8 +67,11 @@
 		216230DB208B7C3100DEC4C0 /* IOChat */ = {
 			isa = PBXGroup;
 			children = (
+				216230EE208B862F00DEC4C0 /* Supporting Files */,
+				216230F5208B891F00DEC4C0 /* Model */,
+				216230F4208B891A00DEC4C0 /* View */,
+				216230F3208B891400DEC4C0 /* Controller */,
 				216230DC208B7C3100DEC4C0 /* AppDelegate.swift */,
-				216230DE208B7C3100DEC4C0 /* ViewController.swift */,
 				216230E0208B7C3100DEC4C0 /* Main.storyboard */,
 				216230E3208B7C3100DEC4C0 /* Assets.xcassets */,
 				216230E5208B7C3100DEC4C0 /* LaunchScreen.storyboard */,
@@ -79,11 +83,34 @@
 		216230EE208B862F00DEC4C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				216230F0208B864A00DEC4C0 /* SWRevealViewController.h */,
-				216230F1208B864A00DEC4C0 /* SWRevealViewController.m */,
-				216230EF208B864900DEC4C0 /* IOChat-Bridging-Header.h */,
+				216230FD208B8F8400DEC4C0 /* IOChat-Bridging-Header.h */,
+				216230FA208B8E1600DEC4C0 /* SWRevealViewController.h */,
+				216230FB208B8E1600DEC4C0 /* SWRevealViewController.m */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		216230F3208B891400DEC4C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				216230F6208B894700DEC4C0 /* ChatVC.swift */,
+				216230F8208B895800DEC4C0 /* ChannelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		216230F4208B891A00DEC4C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		216230F5208B891F00DEC4C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		27348E9755309EDA60BA4571 /* Frameworks */ = {
@@ -239,9 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				216230DF208B7C3100DEC4C0 /* ViewController.swift in Sources */,
+				216230F9208B895800DEC4C0 /* ChannelVC.swift in Sources */,
+				216230F7208B894700DEC4C0 /* ChatVC.swift in Sources */,
 				216230DD208B7C3100DEC4C0 /* AppDelegate.swift in Sources */,
-				216230F2208B864B00DEC4C0 /* SWRevealViewController.m in Sources */,
+				216230FC208B8E1600DEC4C0 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +414,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ie.ucd.comp47390-41550.IOChat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/IOChat-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "IOChat/Supporting Files/IOChat-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -405,7 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ie.ucd.comp47390-41550.IOChat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/IOChat-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "IOChat/Supporting Files/IOChat-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
