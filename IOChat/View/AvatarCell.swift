@@ -7,14 +7,18 @@
 //
 
 import UIKit
-
-class AvatarCell: UICollectionViewCell {
+ class AvatarCell: UICollectionViewCell {
     
     @IBOutlet weak var avatarImg: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
     }
+    func configureCell(index: Int){
+        avatarImg.image = UIImage(named: "dark\(index)")
+        self.layer.backgroundColor = UIColor.lightGray.cgColor
+    }
+    
     func setupView(){
         self.layer.backgroundColor = UIColor.lightGray.cgColor
         self.layer.cornerRadius = 10
