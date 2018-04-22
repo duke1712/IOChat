@@ -131,6 +131,7 @@
                     </view>
                     <connections>
                         <outlet property="loginButton" destination="NNi-hX-TjS" id="y1M-OB-b4a"/>
+                        <outlet property="userImg" destination="O95-h3-IIi" id="pur-WP-bnW"/>
                         <segue destination="60L-UK-kSa" kind="show" identifier="toLogin" id="fRJ-Bd-Xr1"/>
                     </connections>
                 </viewController>
@@ -379,11 +380,17 @@
                                     <action selector="createAccountButtonPressed:" destination="60L-UK-kSa" eventType="touchUpInside" id="HTQ-kn-d4O"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="CZl-Ag-bxi">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="CZl-Ag-bxi" firstAttribute="centerY" secondItem="bFT-XT-2qd" secondAttribute="centerY" constant="-100" id="6nz-iB-Qlu"/>
                             <constraint firstItem="pTV-xf-k3B" firstAttribute="centerX" secondItem="bFT-XT-2qd" secondAttribute="centerX" id="Dsy-GM-EzR"/>
                             <constraint firstItem="Rhf-dI-gjf" firstAttribute="top" secondItem="U6e-AB-ZIT" secondAttribute="top" constant="40" id="EQf-tK-o2B"/>
+                            <constraint firstItem="CZl-Ag-bxi" firstAttribute="centerX" secondItem="bFT-XT-2qd" secondAttribute="centerX" id="Hus-d5-doz"/>
                             <constraint firstItem="HW1-RU-mV3" firstAttribute="top" secondItem="d3b-2S-IbY" secondAttribute="bottom" constant="4" id="Mse-gj-0lt"/>
                             <constraint firstItem="U6e-AB-ZIT" firstAttribute="trailing" secondItem="mdw-o4-R6s" secondAttribute="trailing" constant="16" id="OR4-RO-Euf"/>
                             <constraint firstItem="OqM-KC-KSU" firstAttribute="centerX" secondItem="bFT-XT-2qd" secondAttribute="centerX" id="Pim-Xi-biv"/>
@@ -404,6 +411,7 @@
                     <connections>
                         <outlet property="emailTxt" destination="5uB-OS-Bi7" id="pYG-I9-4dh"/>
                         <outlet property="passTxt" destination="Fny-Ur-rys" id="bV4-Az-Lwf"/>
+                        <outlet property="spinner" destination="CZl-Ag-bxi" id="s3y-BK-hBW"/>
                         <outlet property="userImg" destination="pTV-xf-k3B" id="EZj-8d-t5S"/>
                         <outlet property="userNameTxt" destination="U0F-vY-1dz" id="1Ys-rB-RNY"/>
                         <segue destination="ewi-HJ-uMS" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="5Y7-nQ-KNF"/>

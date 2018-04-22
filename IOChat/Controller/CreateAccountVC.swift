@@ -15,15 +15,20 @@ class CreateAccountVC: UIViewController {
     @IBOutlet weak var passTxt: UITextField!
     @IBOutlet weak var userImg: UIImageView!
     
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
     // Variables
     var avatarName = "profileDefault"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        spinner.isHidden=true
         // Do any additional setup after loading the view.
+        let tap = UIPanGestureRecognizer(target: self, action: #selector(CreateAccountVC.handleTap))
+        view.addGestureRecognizer(tap)
     }
-    
+    @objc func handleTap(){
+        view.endEditing(true)
+    }
     override func viewDidAppear(_ animated: Bool) {
         if UserDataService.instance.avatarName != ""{
             userImg.image = UIImage(named: UserDataService.instance.avatarName)
@@ -32,6 +37,8 @@ class CreateAccountVC: UIViewController {
     }
     
     @IBAction func createAccountPressed(_ sender: Any) {
+        spinner.isHidden=false
+        spinner.startAnimating()
         guard let userName = userNameTxt.text , userNameTxt.text != "" else {
             return
         }
@@ -48,8 +55,11 @@ class CreateAccountVC: UIViewController {
                     if success {
                         AuthService.instance.createUser(name: userName, email: email, avatarName: self.avatarName, completion: { (success) in
                             if success{
-                                print(UserDataService.instance.name)
+                                self.spinner.isHidden=true
+                                self.spinner.stopAnimating()
                                 self.performSegue(withIdentifier: UNWIND, sender: nil)
+                                NotificationCenter.default.post(name: NOTIF_USER_DATA_CHANGE, object: nil)
+                                
                             }
                         })
                     }
