@@ -15,6 +15,8 @@ class CreateAccountVC: UIViewController {
     @IBOutlet weak var passTxt: UITextField!
     @IBOutlet weak var userImg: UIImageView!
     
+    // Variables
+    let avatarName = "profileDefault"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +26,9 @@ class CreateAccountVC: UIViewController {
 
     
     @IBAction func createAccountPressed(_ sender: Any) {
+        guard let userName = userNameTxt.text , userNameTxt.text != "" else {
+            return
+        }
         guard let email = emailTxt.text , emailTxt.text != "" else {
             return
         }
@@ -35,7 +40,12 @@ class CreateAccountVC: UIViewController {
             if success{
                 AuthService.instance.loginUser(email: email, password: pass, completion: { (success) in
                     if success {
-                        print("LOGGED IN")
+                        AuthService.instance.createUser(name: userName, email: email, avatarName: self.avatarName, completion: { (success) in
+                            if success{
+                                print(UserDataService.instance.name)
+                                self.performSegue(withIdentifier: UNWIND, sender: nil)
+                            }
+                        })
                     }
                 })
             }
