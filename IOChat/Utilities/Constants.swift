@@ -18,6 +18,8 @@ let URL_LOGIN = "\(BASE_URL)account/login"
 let URL_USER_ADD = "\(BASE_URL)user/add"
 let URL_USER_BY_EMAIL = "\(BASE_URL)user/byEmail/"
 let URL_GET_CHANNELS = "\(BASE_URL)channel"
+let URL_GET_MESSAGES = "\(BASE_URL)message/byChannel"
+
 // Segues
 let TO_LOGIN = "toLogin"
 let TO_CREATE_ACCOUNT = "toCreateAccount"
@@ -33,6 +35,8 @@ let USER_EMAIL = "userEmail"
 
 // Notification
 let NOTIF_USER_DATA_CHANGE = Notification.Name("notifyUserDataChange")
+let NOTIF_CHANNELS_LOADED = Notification.Name("channelsLoaded")
+let NOTIF_CHANNELS_SELECTED = Notification.Name("channelSelected")
 
 // Headers
 let HEADER = [

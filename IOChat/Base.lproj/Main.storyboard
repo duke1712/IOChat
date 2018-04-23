@@ -488,6 +488,7 @@
                         <viewLayoutGuide key="safeArea" id="miG-aH-rmD"/>
                     </view>
                     <connections>
+                        <outlet property="channelNameLabel" destination="Ium-Li-3y2" id="PcJ-Z3-MQg"/>
                         <outlet property="menuButton" destination="3oh-3B-bIZ" id="fqe-pg-rgV"/>
                     </connections>
                 </viewController>
@@ -545,7 +546,7 @@
                                 </cells>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick Avatar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ahn-Ch-6k2">
-                                <rect key="frame" x="136.5" y="23.5" width="103.5" height="23"/>
+                                <rect key="frame" x="136.5" y="22.5" width="103.5" height="23"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
                                 <color key="textColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
