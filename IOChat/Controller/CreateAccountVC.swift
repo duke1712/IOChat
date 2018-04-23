@@ -54,11 +54,13 @@ class CreateAccountVC: UIViewController {
                 AuthService.instance.loginUser(email: email, password: pass, completion: { (success) in
                     if success {
                         AuthService.instance.createUser(name: userName, email: email, avatarName: self.avatarName, completion: { (success) in
+                            self.spinner.isHidden=true
+                            self.spinner.stopAnimating()
                             if success{
-                                self.spinner.isHidden=true
-                                self.spinner.stopAnimating()
-                                self.performSegue(withIdentifier: UNWIND, sender: nil)
+                                
                                 NotificationCenter.default.post(name: NOTIF_USER_DATA_CHANGE, object: nil)
+
+                                self.performSegue(withIdentifier: UNWIND, sender: nil)
                                 
                             }
                         })

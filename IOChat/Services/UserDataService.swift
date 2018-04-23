@@ -25,5 +25,13 @@ class UserDataService{
     func setAvatarName(avatarName:String){
         self.avatarName=avatarName
     }
-    
+    func logoutUser(){
+        id=""
+        avatarName=""
+        email=""
+        name=""
+        AuthService.instance.isLoggedIn=false
+        AuthService.instance.userEmail=""
+        AuthService.instance.authToken=""
+    }
 }

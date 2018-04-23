@@ -23,6 +23,8 @@
 		21773195208CE87000F0DCC4 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21773194208CE87000F0DCC4 /* UserDataService.swift */; };
 		21773197208CEFB600F0DCC4 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21773196208CEFB600F0DCC4 /* AvatarPickerVC.swift */; };
 		21773199208CF0E200F0DCC4 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21773198208CF0E200F0DCC4 /* AvatarCell.swift */; };
+		2177319E208D0AA100F0DCC4 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2177319C208D0AA100F0DCC4 /* ProfileVC.swift */; };
+		2177319F208D0AA100F0DCC4 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2177319D208D0AA100F0DCC4 /* ProfileVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		21773194208CE87000F0DCC4 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		21773196208CEFB600F0DCC4 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		21773198208CF0E200F0DCC4 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		2177319C208D0AA100F0DCC4 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		2177319D208D0AA100F0DCC4 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		6E79ACA5EC38BD9E5B77BEC1 /* Pods-IOChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOChat/Pods-IOChat.release.xcconfig"; sourceTree = "<group>"; };
 		948B8087E4105BE585FA66BA /* Pods_IOChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -83,6 +87,7 @@
 		216230DB208B7C3100DEC4C0 /* IOChat */ = {
 			isa = PBXGroup;
 			children = (
+				217731A0208D0AAB00F0DCC4 /* XIBs */,
 				21623108208BC18000DEC4C0 /* Services */,
 				21623101208BA01A00DEC4C0 /* Utilities */,
 				216230EE208B862F00DEC4C0 /* Supporting Files */,
@@ -116,6 +121,7 @@
 				21623104208BA72600DEC4C0 /* LoginVC.swift */,
 				21623106208BA97800DEC4C0 /* CreateAccountVC.swift */,
 				21773196208CEFB600F0DCC4 /* AvatarPickerVC.swift */,
+				2177319C208D0AA100F0DCC4 /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -151,6 +157,14 @@
 				21773194208CE87000F0DCC4 /* UserDataService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		217731A0208D0AAB00F0DCC4 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				2177319D208D0AA100F0DCC4 /* ProfileVC.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 		27348E9755309EDA60BA4571 /* Frameworks */ = {
@@ -233,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2177319F208D0AA100F0DCC4 /* ProfileVC.xib in Resources */,
 				216230E7208B7C3100DEC4C0 /* LaunchScreen.storyboard in Resources */,
 				216230E4208B7C3100DEC4C0 /* Assets.xcassets in Resources */,
 				216230E2208B7C3100DEC4C0 /* Main.storyboard in Resources */,
@@ -314,6 +329,7 @@
 				21623105208BA72600DEC4C0 /* LoginVC.swift in Sources */,
 				216230FF208B925700DEC4C0 /* GradientView.swift in Sources */,
 				21773195208CE87000F0DCC4 /* UserDataService.swift in Sources */,
+				2177319E208D0AA100F0DCC4 /* ProfileVC.swift in Sources */,
 				216230DD208B7C3100DEC4C0 /* AppDelegate.swift in Sources */,
 				216230FC208B8E1600DEC4C0 /* SWRevealViewController.m in Sources */,
 				21773199208CF0E200F0DCC4 /* AvatarCell.swift in Sources */,
