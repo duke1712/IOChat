@@ -47,14 +47,14 @@ class MessageService{
             if response.result.error == nil {
                 self.clearMessages()
                 guard let data  = response.data else {return}
-                if let json = JSON(data: data).array{
-                    for item in json{
-                        let messageBody = item["messageBody"]
-                        let channelId = item["channelId"]
-                        let id = item["_id"]
-                        let userName = item["userName"]
-                        let userAvatar = item["userAvatar"]
-                        let timeStamp = item["timeStamp"]
+                if let json = try? JSON(data: data).array {
+                    for item in json!{
+                        let messageBody = item["messageBody"].stringValue
+                        let channelId = item["channelId"].stringValue
+                        let id = item["_id"].stringValue
+                        let userName = item["userName"].stringValue
+                        let userAvatar = item["userAvatar"].stringValue
+                        let timeStamp = item["timeStamp"].stringValue
                         
                         let message  = Message(message: messageBody, userName: userName, channelId: channelId, userAvatar: userAvatar, id: id, timeStamp: timeStamp)
                         

@@ -138,7 +138,7 @@
                   moduleName = "IOChat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pritesh/UCD/IOS/Final%20Project/IOChat/IOChat/Services/AuthService.swift"
-                  timestampString = "546143834.985926"
+                  timestampString = "546165453.318686"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "69"
@@ -153,7 +153,7 @@
                   moduleName = "IOChat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pritesh/UCD/IOS/Final%20Project/IOChat/IOChat/Services/AuthService.swift"
-                  timestampString = "546143834.9901071"
+                  timestampString = "546165453.321373"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "70"
@@ -234,7 +234,7 @@
                   moduleName = "IOChat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pritesh/UCD/IOS/Final%20Project/IOChat/IOChat/Services/AuthService.swift"
-                  timestampString = "546143835.012998"
+                  timestampString = "546165453.341092"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "97"
@@ -249,7 +249,7 @@
                   moduleName = "IOChat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pritesh/UCD/IOS/Final%20Project/IOChat/IOChat/Services/AuthService.swift"
-                  timestampString = "546143835.015594"
+                  timestampString = "546165453.344084"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "98"
@@ -442,7 +442,7 @@
                   moduleName = "IOChat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pritesh/UCD/IOS/Final%20Project/IOChat/IOChat/Controller/LoginVC.swift"
-                  timestampString = "546143835.031804"
+                  timestampString = "546165453.361997"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
@@ -457,7 +457,7 @@
                   moduleName = "IOChat"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/pritesh/UCD/IOS/Final%20Project/IOChat/IOChat/Controller/LoginVC.swift"
-                  timestampString = "546143835.036584"
+                  timestampString = "546165453.364535"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "34"
@@ -506,7 +506,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IOChat/Controller/ChannelVC.swift"
-            timestampString = "546143400.978417"
+            timestampString = "546165451.975426"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -522,7 +522,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IOChat/Controller/ChannelVC.swift"
-            timestampString = "546143400.978467"
+            timestampString = "546165451.975608"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "57"
@@ -586,13 +586,45 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IOChat/Services/MessageService.swift"
-            timestampString = "546143400.978708"
+            timestampString = "546165451.975738"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
             endingLineNumber = "19"
             landmarkName = "findAllChannel(completion:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IOChat.MessageService.findAllChannel(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "IOChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pritesh/UCD/IOS/Final%20Project/IOChat/IOChat/Services/MessageService.swift"
+                  timestampString = "546165453.38293"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any&gt;) -&gt; () in IOChat.MessageService.findAllChannel(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "IOChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pritesh/UCD/IOS/Final%20Project/IOChat/IOChat/Services/MessageService.swift"
+                  timestampString = "546165453.385198"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "42">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -602,7 +634,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IOChat/Services/MessageService.swift"
-            timestampString = "546143400.979026"
+            timestampString = "546165451.976247"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -618,7 +650,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IOChat/Services/MessageService.swift"
-            timestampString = "546143400.979233"
+            timestampString = "546165451.9765249"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "20"
@@ -634,7 +666,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IOChat/Controller/ChannelVC.swift"
-            timestampString = "546143400.979441"
+            timestampString = "546165451.9767931"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
@@ -650,7 +682,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IOChat/Services/MessageService.swift"
-            timestampString = "546143424.684683"
+            timestampString = "546165451.976851"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
@@ -666,7 +698,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IOChat/Services/MessageService.swift"
-            timestampString = "546143438.926317"
+            timestampString = "546165451.97711"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "23"
@@ -682,7 +714,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IOChat/Services/MessageService.swift"
-            timestampString = "546143441.5922019"
+            timestampString = "546165451.977367"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -694,16 +726,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IOChat/Services/SocketService.swift"
-            timestampString = "546143834.760915"
+            timestampString = "546165451.977635"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
             endingLineNumber = "41"
-            landmarkName = "getChanner(completion:)"
+            landmarkName = "getChannel(completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -714,7 +746,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IOChat/Controller/AddChannelVC.swift"
-            timestampString = "546143723.941956"
+            timestampString = "546165451.9777139"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -726,20 +758,20 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IOChat/Services/SocketService.swift"
-            timestampString = "546143834.7613159"
+            timestampString = "546165451.977767"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
             endingLineNumber = "36"
-            landmarkName = "getChanner(completion:)"
+            landmarkName = "getChannel(completion:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "IOChat.SocketService.getChanner(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
@@ -754,7 +786,7 @@
                   offsetFromSymbolStart = "32">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.Array&lt;Any&gt;, SocketIO.SocketAckEmitter) -&gt; () in IOChat.SocketService.getChanner(completion: (Swift.Bool) -&gt; ()) -&gt; ()"
@@ -769,6 +801,22 @@
                   offsetFromSymbolStart = "40">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOChat/Controller/ChannelVC.swift"
+            timestampString = "546165479.702857"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "setupUserInfo()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
