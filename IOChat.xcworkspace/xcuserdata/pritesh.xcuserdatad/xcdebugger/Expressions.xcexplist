@@ -3,36 +3,18 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "AuthService.createUser(name:email:avatarName:completion:):AuthService.swift">
-      </ContextState>
-      <ContextState
-         contextName = "AuthService.loginUser(email:password:completion:):AuthService.swift">
-      </ContextState>
-      <ContextState
-         contextName = "closure #1 in closure #1 in CreateAccountVC.createAccountPressed(_:):CreateAccountVC.swift">
-      </ContextState>
-      <ContextState
-         contextName = "closure #1 in AuthService.findUserByEmail(completion:):AuthService.swift">
-      </ContextState>
-      <ContextState
-         contextName = "closure #1 in AuthService.createUser(name:email:avatarName:completion:):AuthService.swift">
+         contextName = "AuthService.setUserInfo(data:):AuthService.swift">
          <PersistentStrings>
             <PersistentString
-               value = "avatarName">
-            </PersistentString>
-            <PersistentString
-               value = "response.request">
+               value = "userEmail">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "closure #1 in AuthService.registerUser(email:password:completion:):AuthService.swift">
-      </ContextState>
-      <ContextState
-         contextName = "closure #1 in LoginVC.loginPressed(_:):LoginVC.swift">
+         contextName = "MessageService.findAllMessagesForChannel(channelId:completion:):MessageService.swift">
          <PersistentStrings>
             <PersistentString
-               value = "BEARER_HEADER">
+               value = "&quot;\(URL_GET_MESSAGES)\(channelId)&quot;">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -48,12 +30,43 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "AuthService.setUserInfo(data:):AuthService.swift">
+         contextName = "closure #1 in AuthService.registerUser(email:password:completion:):AuthService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AuthService.createUser(name:email:avatarName:completion:):AuthService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in CreateAccountVC.createAccountPressed(_:):CreateAccountVC.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SocketService.getChatMessage(completion:):SocketService.swift">
          <PersistentStrings>
             <PersistentString
-               value = "userEmail">
+               value = "socket">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SocketService.establishConnection():SocketService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "socket">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in LoginVC.loginPressed(_:):LoginVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "BEARER_HEADER">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in AuthService.findUserByEmail(completion:):AuthService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AuthService.loginUser(email:password:completion:):AuthService.swift">
       </ContextState>
       <ContextState
          contextName = "closure #1 in AuthService.loginUser(email:password:completion:):AuthService.swift">
@@ -63,6 +76,23 @@
             </PersistentString>
             <PersistentString
                value = "response.resultCode">
+            </PersistentString>
+            <PersistentString
+               value = "json[&quot;message&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MessageService.findAllMessagesForChannel(channelId:completion:):MessageService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in AuthService.createUser(name:email:avatarName:completion:):AuthService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "avatarName">
+            </PersistentString>
+            <PersistentString
+               value = "response.request">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

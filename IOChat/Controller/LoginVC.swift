@@ -39,6 +39,10 @@ class LoginVC: UIViewController {
                     }
                 })
             }
+            else{
+                self.spinner.isHidden=true
+                self.spinner.stopAnimating()
+            }
         }
     }
     @IBAction func closePressed(_ sender: UIButton) {

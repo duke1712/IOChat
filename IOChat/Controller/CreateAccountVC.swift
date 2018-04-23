@@ -65,7 +65,15 @@ class CreateAccountVC: UIViewController {
                             }
                         })
                     }
+                    else{
+                        self.spinner.isHidden=true
+                        self.spinner.stopAnimating()
+                    }
                 })
+            }
+            else{
+                self.spinner.isHidden=true
+                self.spinner.stopAnimating()
             }
         }
     }
