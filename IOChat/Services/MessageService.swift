@@ -19,8 +19,8 @@ class MessageService{
             if response.result.error == nil{
                 guard let data = response.data else {return}
                 
-                if let json = JSON(data: data).array{
-                    for item in json{
+                if let json = try? JSON(data: data).array{
+                    for item in json!{
                         let name = item["name"].stringValue
                         let channelDesc = item["description"].stringValue
                         let id = item["_id"].stringValue
