@@ -12,7 +12,7 @@ class AddChannelVC: UIViewController {
 
     @IBOutlet weak var bgView: UIView!
     @IBOutlet weak var nameTxt: UITextField!
-    @IBOutlet weak var passTxt: UITextField!
+    @IBOutlet weak var descTxt: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
@@ -24,6 +24,13 @@ class AddChannelVC: UIViewController {
     }
     
     @IBAction func createChannelPressed(_ sender: Any) {
+        guard let channelName = nameTxt.text, nameTxt.text != "" else {return}
+        guard let pass = descTxt.text, descTxt.text != "" else {return}
+        SocketService.instance.addChannel(channelName: channelName, channerDescription: description) { (success) in
+            if success{
+                self.dismiss(animated: true, completion: nil)
+            }
+        }
     }
     
     func setupViews(){
@@ -36,4 +43,17 @@ class AddChannelVC: UIViewController {
     @objc func closeTap(_ recognizer: UITapGestureRecognizer){
         dismiss(animated: true, completion: nil)
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }

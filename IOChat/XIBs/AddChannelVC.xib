@@ -18,8 +18,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddChannelVC" customModule="IOChat" customModuleProvider="target">
             <connections>
                 <outlet property="bgView" destination="FI4-z4-rFU" id="dsq-4A-wUi"/>
+                <outlet property="descTxt" destination="JMj-dS-ahp" id="oPi-2P-bPz"/>
                 <outlet property="nameTxt" destination="SjX-ce-13e" id="C84-7m-Q7G"/>
-                <outlet property="passTxt" destination="JMj-dS-ahp" id="oPi-2P-bPz"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -75,7 +75,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="NRc-QM-TEZ"/>
                                     </constraints>
-                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="textColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
@@ -92,7 +92,7 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="250" id="Ta0-yp-nEs"/>
                                     </constraints>
-                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="textColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>

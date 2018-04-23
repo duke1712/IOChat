@@ -30,6 +30,7 @@
 		217731A6208D624B00F0DCC4 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217731A5208D624B00F0DCC4 /* ChannelCell.swift */; };
 		217731A9208D6A7C00F0DCC4 /* AddChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217731A7208D6A7C00F0DCC4 /* AddChannelVC.swift */; };
 		217731AA208D6A7C00F0DCC4 /* AddChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 217731A8208D6A7C00F0DCC4 /* AddChannelVC.xib */; };
+		217731AC208D70D800F0DCC4 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217731AB208D70D800F0DCC4 /* SocketService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		217731A5208D624B00F0DCC4 /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		217731A7208D6A7C00F0DCC4 /* AddChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChannelVC.swift; sourceTree = "<group>"; };
 		217731A8208D6A7C00F0DCC4 /* AddChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddChannelVC.xib; sourceTree = "<group>"; };
+		217731AB208D70D800F0DCC4 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		6E79ACA5EC38BD9E5B77BEC1 /* Pods-IOChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOChat/Pods-IOChat.release.xcconfig"; sourceTree = "<group>"; };
 		948B8087E4105BE585FA66BA /* Pods_IOChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -169,6 +171,7 @@
 				21623109208BC1A200DEC4C0 /* AuthService.swift */,
 				21773194208CE87000F0DCC4 /* UserDataService.swift */,
 				217731A1208D5B6300F0DCC4 /* MessageService.swift */,
+				217731AB208D70D800F0DCC4 /* SocketService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				217731A6208D624B00F0DCC4 /* ChannelCell.swift in Sources */,
 				2162310A208BC1A200DEC4C0 /* AuthService.swift in Sources */,
 				217731A9208D6A7C00F0DCC4 /* AddChannelVC.swift in Sources */,
+				217731AC208D70D800F0DCC4 /* SocketService.swift in Sources */,
 				21623105208BA72600DEC4C0 /* LoginVC.swift in Sources */,
 				216230FF208B925700DEC4C0 /* GradientView.swift in Sources */,
 				217731A2208D5B6300F0DCC4 /* MessageService.swift in Sources */,
