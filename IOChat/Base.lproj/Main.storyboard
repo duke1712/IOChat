@@ -259,7 +259,6 @@
                         <viewLayoutGuide key="safeArea" id="O2k-ml-KDa"/>
                     </view>
                     <connections>
-                        <outlet property="loginPressed" destination="MPo-uh-R6s" id="1Mc-F5-qYk"/>
                         <outlet property="passTxt" destination="0mN-wA-2Dr" id="e7J-Lc-J8Q"/>
                         <outlet property="spinner" destination="FPR-bG-7Ts" id="VCG-3m-NKF"/>
                         <outlet property="userNameTxt" destination="vMs-de-Lbz" id="Z7V-h6-adi"/>
@@ -268,7 +267,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PhX-in-rHK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1599.2" y="-100.29985007496252"/>
+            <point key="canvasLocation" x="1570" y="-100"/>
         </scene>
         <!--Create AccountVC-->
         <scene sceneID="dQO-Uc-Xdd">
@@ -385,21 +384,6 @@
                                     <constraint firstAttribute="width" constant="100" id="d8B-nF-klb"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HW1-RU-mV3">
-                                <rect key="frame" x="62.5" y="433" width="250" height="30"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="8Yg-3D-k06"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="H4k-jJ-izj"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
-                                <state key="normal" title="Generate Background Color">
-                                    <color key="titleColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="createAccountButtonPressed:" destination="60L-UK-kSa" eventType="touchUpInside" id="HTQ-kn-d4O"/>
-                                </connections>
-                            </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="CZl-Ag-bxi">
                                 <rect key="frame" x="169" y="215" width="37" height="37"/>
                                 <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -411,7 +395,6 @@
                             <constraint firstItem="pTV-xf-k3B" firstAttribute="centerX" secondItem="bFT-XT-2qd" secondAttribute="centerX" id="Dsy-GM-EzR"/>
                             <constraint firstItem="Rhf-dI-gjf" firstAttribute="top" secondItem="U6e-AB-ZIT" secondAttribute="top" constant="40" id="EQf-tK-o2B"/>
                             <constraint firstItem="CZl-Ag-bxi" firstAttribute="centerX" secondItem="bFT-XT-2qd" secondAttribute="centerX" id="Hus-d5-doz"/>
-                            <constraint firstItem="HW1-RU-mV3" firstAttribute="top" secondItem="d3b-2S-IbY" secondAttribute="bottom" constant="4" id="Mse-gj-0lt"/>
                             <constraint firstItem="U6e-AB-ZIT" firstAttribute="trailing" secondItem="mdw-o4-R6s" secondAttribute="trailing" constant="16" id="OR4-RO-Euf"/>
                             <constraint firstItem="OqM-KC-KSU" firstAttribute="centerX" secondItem="bFT-XT-2qd" secondAttribute="centerX" id="Pim-Xi-biv"/>
                             <constraint firstItem="o3C-Yj-C3F" firstAttribute="centerX" secondItem="bFT-XT-2qd" secondAttribute="centerX" id="RaN-Ms-fwp"/>
@@ -423,7 +406,6 @@
                             <constraint firstItem="d3b-2S-IbY" firstAttribute="centerX" secondItem="bFT-XT-2qd" secondAttribute="centerX" id="lan-LQ-DZK"/>
                             <constraint firstItem="mdw-o4-R6s" firstAttribute="top" secondItem="U6e-AB-ZIT" secondAttribute="top" constant="8" id="rZI-Ee-rCJ"/>
                             <constraint firstItem="OqM-KC-KSU" firstAttribute="top" secondItem="Rhf-dI-gjf" secondAttribute="bottom" constant="40" id="uwd-Jk-Qka"/>
-                            <constraint firstItem="HW1-RU-mV3" firstAttribute="centerX" secondItem="bFT-XT-2qd" secondAttribute="centerX" id="xWC-Lz-g2g"/>
                             <constraint firstItem="Rhf-dI-gjf" firstAttribute="centerX" secondItem="bFT-XT-2qd" secondAttribute="centerX" id="xhw-2r-CSZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="U6e-AB-ZIT"/>
@@ -460,7 +442,7 @@
                                             <constraint firstAttribute="width" constant="24" id="1HG-5X-bP1"/>
                                             <constraint firstAttribute="height" constant="18" id="Opn-G8-3IL"/>
                                         </constraints>
-                                        <state key="normal" image="smackBurger"/>
+                                        <state key="normal" image="IOBurger"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IOChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ium-Li-3y2">
                                         <rect key="frame" x="160.5" y="46" width="54" height="21"/>
@@ -662,16 +644,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VMB-Qb-YUm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3224.8000000000002" y="-100.29985007496252"/>
+            <point key="canvasLocation" x="3159" y="-100"/>
         </scene>
     </scenes>
     <resources>
+        <image name="IOBurger" width="40" height="40"/>
         <image name="addChannelButton" width="22" height="22"/>
         <image name="closeButton" width="28" height="28"/>
         <image name="menuProfileIcon" width="99" height="99"/>
         <image name="profileDefault" width="192" height="192"/>
         <image name="send" width="30" height="30"/>
         <image name="smackBack" width="28" height="28"/>
-        <image name="smackBurger" width="40" height="40"/>
     </resources>
 </document>

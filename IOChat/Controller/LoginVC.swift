@@ -21,7 +21,6 @@ class LoginVC: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet weak var loginPressed: UIButton!
     @IBAction func loginPressed(_ sender: Any) {
         spinner.isHidden=false
         spinner.startAnimating()
@@ -42,6 +41,9 @@ class LoginVC: UIViewController {
             else{
                 self.spinner.isHidden=true
                 self.spinner.stopAnimating()
+                let alert = UIAlertController(title: "Error!!", message: "Invalid UserName and Password.", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+                self.present(alert, animated: true)
             }
         }
     }
@@ -56,6 +58,5 @@ class LoginVC: UIViewController {
         spinner.isHidden=true
         userNameTxt.attributedPlaceholder = NSAttributedString(string: "username", attributes: [NSAttributedStringKey.foregroundColor: IOPurplePlaceholder])
         passTxt.attributedPlaceholder = NSAttributedString(string: "password", attributes: [NSAttributedStringKey.foregroundColor: IOPurplePlaceholder])
-//        userNameTxt.attributedPlaceholder = NSAttributedString(string: "username", attributes: [NSAttributedStringKey.foregroundColor:smackPurplePlaceholder])
     }
 }

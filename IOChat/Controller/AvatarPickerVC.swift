@@ -29,11 +29,13 @@ class AvatarPickerVC: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         var numberOfColumns: CGFloat = 3
+        // Show 4 columns for big screen Iphones
         if UIScreen.main.bounds.width > 320{
             numberOfColumns = 4
         }
         let spaceBetweenCells:CGFloat = 10
         let padding:CGFloat = 40
+        // Calculating cell dimensions according to the screen size
         let cellDimension = ((collectionView.bounds.width-padding)-(numberOfColumns-1)*spaceBetweenCells) / numberOfColumns
         return CGSize(width: cellDimension, height: cellDimension)
         

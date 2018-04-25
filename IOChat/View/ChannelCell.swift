@@ -25,7 +25,6 @@ class ChannelCell: UITableViewCell {
         {
             self.layer.backgroundColor = UIColor.clear.cgColor
         }
-        // Configure the view for the selected state
     }
     
     func configureCell(channel: Channel){
@@ -33,6 +32,7 @@ class ChannelCell: UITableViewCell {
         channelLabel.text = "#\(title)"
         channelLabel.font = UIFont(name: "HelveticaNeue-Regular", size: 17)
         
+        // If the channel has unread messages it changes the fontsize and type
         for id in MessageService.instance.unreadChannels{
             if(id == channel.id){
                 channelLabel.font = UIFont(name: "HelveticaNeue-Bold", size: 22)

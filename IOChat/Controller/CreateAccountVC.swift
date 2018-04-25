@@ -22,7 +22,6 @@ class CreateAccountVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         spinner.isHidden=true
-        // Do any additional setup after loading the view.
         let tap = UIPanGestureRecognizer(target: self, action: #selector(CreateAccountVC.handleTap))
         view.addGestureRecognizer(tap)
     }
@@ -66,12 +65,17 @@ class CreateAccountVC: UIViewController {
                         })
                     }
                     else{
+                        
                         self.spinner.isHidden=true
                         self.spinner.stopAnimating()
                     }
                 })
             }
             else{
+                let alert = UIAlertController(title: "Error!!", message: "User Already Exists", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+
+                self.present(alert, animated: true)
                 self.spinner.isHidden=true
                 self.spinner.stopAnimating()
             }

@@ -8,6 +8,7 @@
 
 import Foundation
 class UserDataService{
+    // Singleton class 
     static let instance=UserDataService()
     
     public private(set) var id = ""
@@ -25,6 +26,8 @@ class UserDataService{
     func setAvatarName(avatarName:String){
         self.avatarName=avatarName
     }
+    
+    // Function to logout the user
     func logoutUser(){
         id=""
         avatarName=""
